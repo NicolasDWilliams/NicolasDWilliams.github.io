@@ -1,0 +1,12 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Project 1 - The Legend of Zelda [EECS 494]",
+"dataUrl": "webgl_zelda.data.unityweb",
+"wasmCodeUrl": "webgl_zelda.wasm.code.unityweb",
+"wasmFrameworkUrl": "webgl_zelda.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
