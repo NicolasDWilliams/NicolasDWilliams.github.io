@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "Project 1 - The Legend of Zelda [EECS 494]",
+"productName": "Zelda Unity Remake",
 "dataUrl": "ZeldaWebGL.data.unityweb",
 "wasmCodeUrl": "ZeldaWebGL.wasm.code.unityweb",
 "wasmFrameworkUrl": "ZeldaWebGL.wasm.framework.unityweb",
