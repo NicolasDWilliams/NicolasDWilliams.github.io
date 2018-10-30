@@ -30,3 +30,8 @@ body {
   width: 350px;
   height: 200px;
 }
+
+.description {
+  word-wrap: break-word;
+  width: 100px;
+}
