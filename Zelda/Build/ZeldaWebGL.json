@@ -1,9 +1,10 @@
 {
 "companyName": "DefaultCompany",
-"productName": "Project 1 - The Legend of Zelda [EECS 494]",
+"productName": "The Legend of Zelda",
 "dataUrl": "ZeldaWebGL.data.unityweb",
-"wasmCodeUrl": "ZeldaWebGL.wasm.code.unityweb",
-"wasmFrameworkUrl": "ZeldaWebGL.wasm.framework.unityweb",
+"asmCodeUrl": "ZeldaWebGL.asm.code.unityweb",
+"asmMemoryUrl": "ZeldaWebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "ZeldaWebGL.asm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
