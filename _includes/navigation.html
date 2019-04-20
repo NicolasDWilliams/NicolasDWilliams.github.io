@@ -1,0 +1,11 @@
+<!-- NAVIGATION BAR -->
+<ul class="navBar">
+  {% for item in site.data.navigation %}
+  <li class="navLink"><a href="{{ item.link }}" 
+                         class="navLink {% if page.url == item.link %}active{% endif %}">
+      {{ item.name }}</a>
+  {% endfor %}
+  <!-- <li class="navLink"><a class="navLink" href="index.html">Games</a></li> -->
+  <!-- <li class="navLink"><a class="navLink" href="about.html">About Me</a></li> -->
+  <!-- <li class="navLink"><a class="navLink" href="resume.html">Resume</a></li> -->
+</ul>
