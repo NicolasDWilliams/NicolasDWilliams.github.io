@@ -1,4 +1,3 @@
-- Move demos into their own folders
 - Make new thumbnails for games
 - Create site version of resume
 - Project descriptions
@@ -10,4 +9,8 @@
 - Include skills in resume (?)
 - Added game pictures to website
 - Beef up about me section with what is important for a producer
+- What I think production is on about me section
+- Lessons I've learned in about me section
+- Design analysis
+
 
