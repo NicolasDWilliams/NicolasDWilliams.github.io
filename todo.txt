@@ -1,3 +1,4 @@
+- Move demos into their own folders
 - Make new thumbnails for games
 - Create site version of resume
 - Project descriptions
