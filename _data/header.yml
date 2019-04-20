@@ -1,0 +1,6 @@
+- name: Games
+  link: /
+- name: About Me
+  link: /about.html
+- name: Resume
+  link: /resume.html

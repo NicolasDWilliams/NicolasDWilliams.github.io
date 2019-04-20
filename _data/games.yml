@@ -1,0 +1,35 @@
+- name: Miner Mayhem
+  description: 
+  role:
+  responsibilities:
+  demo: 
+  indieDB: https://www.indiedb.com/games/miner-mayhem
+  trailer: 
+  postmortem: 
+
+- name: Dante's Descent
+  description: 
+  role:
+  responsibilities:
+  demo: /dantes-descent/index.html
+  indieDB: 
+  trailer: 
+  postmortem: 
+
+- name: Circle Survival
+  description: 
+  role:
+  responsibilities:
+  demo: /circle-survival/index.html
+  indieDB: 
+  trailer: 
+  postmortem: 
+
+- name: Reimplementation - Zelda Dungeon
+  description: 
+  role:
+  responsibilities:
+  demo: /zelda/index.html
+  indieDB: 
+  trailer: 
+  postmortem: 
