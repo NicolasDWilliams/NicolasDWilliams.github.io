@@ -1,0 +1,13 @@
+- Move demos into their own folders
+- Make new thumbnails for games
+- Create site version of resume
+- Project descriptions
+- Project post-mortems
+- Project development info
+- Role Responsibilities
+- Picture on about me section (?)
+- Student quotes on about me section
+- Include skills in resume (?)
+- Added game pictures to website
+- Beef up about me section with what is important for a producer
+
