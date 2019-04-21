@@ -2,44 +2,52 @@
 layout: default
 stylesheet: /assets/css/projects.css
 ---
-<div id="projectHeader">
-  <p id="projectTitle">{{ page.title }}</p>
-  <p id="projectTeam">{{ page.team }}</p>
-  <p id="projectRole">Producer, Programmer</p>
-</div>
+<div id="projectContainer">
+  <div id="projectHeader">
+    <p id="projectTitle">{{ page.title }}</p>
+    <p id="projectTeam">{{ page.team }}</p>
+    <p id="projectRole">Producer, Programmer</p>
+  </div>
 
-<div id="projectIntro">
-  {% if page.trailer %}
-  <iframe width="560" height="315" id="projectTrailer" 
-    src="{{ project.trailer }}" frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
-  {% elsif page.poster %}
-    <img id="projectPoster" src="{{ page.poster }}">
-  {% else %}
-  <p> NO IMAGE FOUND </p>
+  <div id="projectIntro">
+    <div class="trailerHalf">
+      <div class="aspect-ratio">
+        {% if page.trailer %}
+          <iframe id="projectTrailer" src="{{ page.trailer }}" frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+          picture-in-picture" allowfullscreen></iframe>
+        {% elsif page.poster %}
+          <img id="projectPoster" src="{{ page.poster }}">
+        {% else %}
+          <p> NO IMAGE FOUND </p>
+        {% endif %}
+      </div>
+    </div>
+    <div class="textHalf">
+      <p id="projectAbout">About <i>{{ page.title }}</i></p>
+      <p id="projectDescription">{{ page.description }}</p>
+    </div>
+  </div>
+
+  {% if page.responsibilities %}
+  <div id="projectResponsibilities">
+    <p class="projectSectionTitle">My Responsibilities</p>
+    <ul>
+      {% for responsibility in page.responsibilities %}
+        <li class="responsibilityBullet">{{ page.responsibility }}</li>
+      {% endfor %}
+    </ul>
+  </div>
   {% endif %}
 
-</div>
-
-{% if page.responsibilities %}
-<div id="projectResponsibilities">
-  <p class="projectSectionTitle">My Responsibilities</p>
-  <ul>
-    {% for responsibility in page.responsibilities %}
-      <li class="responsibilityBullet">{{ page.responsibility }}</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
-
-<div style="text-align:center;font-size:25px;">
-  {% if page.indieDB %}
-  <a href="{{ page.indieDB }}">[ IndieDB ]</a>
-  {% endif %}
-  {% if page.demo %}
-  <a href="{{ page.demo }}">[ Playable Demo ]</a>
-  {% endif %}
-</div>
+  <div style="text-align:center;font-size:25px;">
+    {% if page.indieDB %}
+    <a href="{{ page.indieDB }}">[ IndieDB ]</a>
+    {% endif %}
+    {% if page.demo %}
+    <a href="{{ page.demo }}">[ Playable Demo ]</a>
+    {% endif %}
+  </div>
+</div> 
 
 {{ content }}
