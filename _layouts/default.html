@@ -2,7 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>
+      {% if page.title %}{{ page.title }} - Nico Williams' Portfolio
+      {% else %}
+      Nico Williams - Game Producer
+      {% endif %}
+    </title>
+    {% if layout.stylesheet %}
+    <link rel="stylesheet" href="{{ layout.stylesheet }}">
+    {% endif %}
+    {% if page.stylesheet %}
+    <link rel="stylesheet" href="{{ page.stylesheet }}">
+    {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
           rel="stylesheet">
