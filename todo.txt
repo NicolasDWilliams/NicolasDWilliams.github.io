@@ -13,4 +13,15 @@
 - Lessons I've learned in about me section
 - Design analysis
 
+### PROJECT PAGES ###
+- Rotating images at the top
+- Title, Studio, Role
+- Engine
+- Trailer/Images
+- Description
+- Development Info
+- Any documentation
+- Responsibilities
+- Post-Mortem
+
 
