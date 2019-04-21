@@ -4,8 +4,34 @@ stylesheet: /assets/css/projects.css
 ---
 <div id="projectHeader">
   <p id="projectTitle">{{ page.title }}</p>
+  <p id="projectTeam">{{ page.team }}</p>
   <p id="projectRole">Producer, Programmer</p>
 </div>
+
+<div id="projectIntro">
+  {% if page.trailer %}
+  <iframe width="560" height="315" id="projectTrailer" 
+    src="{{ project.trailer }}" frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+  {% elsif page.poster %}
+    <img id="projectPoster" src="{{ page.poster }}">
+  {% else %}
+  <p> NO IMAGE FOUND </p>
+  {% endif %}
+
+</div>
+
+{% if page.responsibilities %}
+<div id="projectResponsibilities">
+  <p class="projectSectionTitle">My Responsibilities</p>
+  <ul>
+    {% for responsibility in page.responsibilities %}
+      <li class="responsibilityBullet">{{ page.responsibility }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
 
 <div style="text-align:center;font-size:25px;">
   {% if page.indieDB %}

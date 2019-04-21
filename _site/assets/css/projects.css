@@ -1,15 +1,15 @@
-#projectHeader {
+div#projectHeader {
   text-align: center; }
 
-#projectTitle {
+p#projectTitle {
   font-size: 30px;
   font-weight: bold;
   margin: 0; }
 
-#projectTeam {
+p#projectTeam {
   font-size: 20px;
   margin: 0; }
 
-#projectRole {
+p#projectRole {
   font-size: 20px;
   margin: 0; }

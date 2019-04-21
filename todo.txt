@@ -23,5 +23,6 @@
 - Any documentation
 - Responsibilities
 - Post-Mortem
+- Consider moving the role somewhere else, although it is critical info so maybe not
 
 
