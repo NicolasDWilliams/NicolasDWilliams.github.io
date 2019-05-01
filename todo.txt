@@ -24,5 +24,6 @@
 - Responsibilities
 - Post-Mortem
 - Consider moving the role somewhere else, although it is critical info so maybe not
+- Consider changing project pages to just be yaml files, since they only have info
 
 
