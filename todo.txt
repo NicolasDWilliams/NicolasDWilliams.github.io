@@ -10,4 +10,5 @@
 - Include skills in resume (?)
 - Added game pictures to website
 - Beef up about me section with what is important for a producer
+- Make navigation bar sticky
 
