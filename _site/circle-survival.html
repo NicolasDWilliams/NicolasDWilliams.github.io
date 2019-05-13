@@ -23,19 +23,28 @@
 </div>
 
 <!-- NAVIGATION BAR -->
-<ul class="navBar">
+<ul id="navBar">
   
-  <li class="navLink"><a href="/" 
-                         class="navLink ">
-      Games</a>
+  <li class="navLink">
+    <a href="/" 
+      class="navLink ">
+      Games
+    </a>
+  </li>
   
-  <li class="navLink"><a href="/about.html" 
-                         class="navLink ">
-      About Me</a>
+  <li class="navLink">
+    <a href="/about.html" 
+      class="navLink ">
+      About Me
+    </a>
+  </li>
   
-  <li class="navLink"><a href="/resume.html" 
-                         class="navLink ">
-      Resume</a>
+  <li class="navLink">
+    <a href="/resume.html" 
+      class="navLink ">
+      Resume
+    </a>
+  </li>
   
   <!-- <li class="navLink"><a class="navLink" href="index.html">Games</a></li> -->
   <!-- <li class="navLink"><a class="navLink" href="about.html">About Me</a></li> -->
@@ -43,12 +52,15 @@
 </ul>
 
     <div id="projectContainer">
+
+  <!-- Project header displaying name, studio and roles -->
   <div id="projectHeader">
     <p id="projectTitle">Circle Survival</p>
-    <p id="projectTeam">Solo Project</p>
+    <p id="projectTeam">Developed by <i>Solo Project</i></p>
     <p id="projectRole">Producer, Programmer</p>
   </div>
 
+  <!-- Container for top-level project information -->
   <div id="projectIntro">
     <div class="trailerHalf">
       <div class="aspect-ratio">
@@ -58,23 +70,72 @@
       </div>
     </div>
     <div class="textHalf">
-      <p id="projectAbout">About <i>Circle Survival</i></p>
+      <p class="projectSectionHeader">About <i>Circle Survival</i></p>
       <p id="projectDescription"></p>
+      <p class="projectSectionHeader">Project Info</p>
+      <ul class="bulletList">
+        
+        <li> 2 Week Development Cycle </li>
+        
+        <li> Solo project </li>
+        
+        <li> Unity Engine </li>
+        
+      </ul>
     </div>
   </div>
 
   
+  <div class="sectionDivider"></div>
   <div id="projectResponsibilities">
-    <p class="projectSectionTitle">My Responsibilities</p>
+    <p class="projectSectionHeader">My Responsibilities</p>
     <ul>
       
-        <li class="responsibilityBullet"></li>
+        <li class="responsibilityBullet">Responsibility #1</li>
       
-        <li class="responsibilityBullet"></li>
+        <li class="responsibilityBullet">Responsibility #2</li>
       
-        <li class="responsibilityBullet"></li>
+        <li class="responsibilityBullet">Responsibility #3</li>
       
     </ul>
+  </div>
+  
+
+  
+  <div class="sectionDivider"></div>
+  <p class="projectSectionHeader">Postmortem</p>
+  <div>
+    <!-- Left box: What went wrong -->
+    <div class="postmortemWrong">
+      <p class="postmortemSection">What went wrong</p>
+      <ul class="bulletList">
+        
+        <li>First thing went wrong</li>
+        
+        <li>Second thing went wrong</li>
+        
+      </ul>
+    </div>
+    <div class="postmortemRight">
+      <p class="postmortemSection">What went right</p>
+      <ul class="bulletList">
+        
+        <li>First thing went right</li>
+        
+        <li>Second thing went right</li>
+        
+      </ul>
+    </div>
+    <div class="postmortemLearned">
+      <p class="postmortemSection">Lessons learned</p>
+      <ul class="bulletList">
+        
+        <li>First thing we learned</li>
+        
+        <li>Second thing we learned</li>
+        
+      </ul>
+    </div>
   </div>
   
 

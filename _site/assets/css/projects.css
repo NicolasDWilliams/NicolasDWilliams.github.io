@@ -4,7 +4,8 @@ div#projectContainer {
   margin: 0 auto; }
 
 div#projectHeader {
-  text-align: center; }
+  text-align: center;
+  margin: 30px 0px; }
 
 p#projectTitle {
   font-size: 30px;
@@ -22,8 +23,15 @@ p#projectRole {
 div#projectIntro {
   position: relative;
   min-height: 315px;
-  margin: 0 auto;
-  border: 1px solid blue; }
+  margin: 0 auto; }
+
+.projectSectionHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0; }
+
+.bulletList {
+  margin: 10px 0; }
 
 .aspect-ratio {
   position: relative;
@@ -45,3 +53,26 @@ div#projectIntro {
 .textHalf {
   width: 49%;
   margin: 0 0 auto auto; }
+
+.sectionDivider {
+  margin: 30px auto;
+  height: 3px;
+  width: 85%;
+  background: #00A8A3;
+  border: 1px solid #00A8A3;
+  border-radius: 100000px; }
+
+.postmortemWrong, .postmortemRight, .postmortemLearned {
+  display: inline-block;
+  width: 30%; }
+
+.postmortemRight {
+  border: 2px #00A8A3;
+  border-left-style: solid;
+  border-right-style: solid; }
+
+.postmortemSection {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: center; }

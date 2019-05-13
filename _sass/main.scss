@@ -6,7 +6,8 @@ html {
 }
 
 p, ul {
-  font-size: 14px;
+  font-size: 15px;
+  // color: #555555;
 }
 
 #nameTitle {
@@ -23,15 +24,13 @@ p, ul {
   margin: 0;
 }
 
-.navBar {
-  /* background: #686868; */
+#navBar {
   list-style-type: none;
   padding: 5px 0;
   margin: 10px 0;
-  /* border: 3px solid black; */
   text-align: center;
   font-size: 17px;
-  border-top-style: solid;
+  // border-top-style: solid;
   border-bottom-style: solid;
 }
 

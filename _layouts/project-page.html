@@ -3,12 +3,15 @@ layout: default
 stylesheet: /assets/css/projects.css
 ---
 <div id="projectContainer">
+
+  <!-- Project header displaying name, studio and roles -->
   <div id="projectHeader">
     <p id="projectTitle">{{ page.title }}</p>
-    <p id="projectTeam">{{ page.team }}</p>
+    <p id="projectTeam">Developed by <i>{{ page.team }}</i></p>
     <p id="projectRole">Producer, Programmer</p>
   </div>
 
+  <!-- Container for top-level project information -->
   <div id="projectIntro">
     <div class="trailerHalf">
       <div class="aspect-ratio">
@@ -24,19 +27,58 @@ stylesheet: /assets/css/projects.css
       </div>
     </div>
     <div class="textHalf">
-      <p id="projectAbout">About <i>{{ page.title }}</i></p>
+      <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
       <p id="projectDescription">{{ page.description }}</p>
+      <p class="projectSectionHeader">Project Info</p>
+      <ul class="bulletList">
+        {% for info in page.development_info %}
+        <li> {{ info }} </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 
   {% if page.responsibilities %}
+  <div class="sectionDivider"></div>
   <div id="projectResponsibilities">
-    <p class="projectSectionTitle">My Responsibilities</p>
+    <p class="projectSectionHeader">My Responsibilities</p>
     <ul>
       {% for responsibility in page.responsibilities %}
-        <li class="responsibilityBullet">{{ page.responsibility }}</li>
+        <li class="responsibilityBullet">{{ responsibility }}</li>
       {% endfor %}
     </ul>
+  </div>
+  {% endif %}
+
+  {% if page.postmortem_right %}
+  <div class="sectionDivider"></div>
+  <p class="projectSectionHeader">Postmortem</p>
+  <div>
+    <!-- Left box: What went wrong -->
+    <div class="postmortemWrong">
+      <p class="postmortemSection">What went wrong</p>
+      <ul class="bulletList">
+        {% for wrong in page.postmortem_wrong %}
+        <li>{{ wrong }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="postmortemRight">
+      <p class="postmortemSection">What went right</p>
+      <ul class="bulletList">
+        {% for right in page.postmortem_right %}
+        <li>{{ right }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="postmortemLearned">
+      <p class="postmortemSection">Lessons learned</p>
+      <ul class="bulletList">
+        {% for learn in page.postmortem_learned %}
+        <li>{{ learn }}</li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
   {% endif %}
 

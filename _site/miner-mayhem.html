@@ -23,19 +23,28 @@
 </div>
 
 <!-- NAVIGATION BAR -->
-<ul class="navBar">
+<ul id="navBar">
   
-  <li class="navLink"><a href="/" 
-                         class="navLink ">
-      Games</a>
+  <li class="navLink">
+    <a href="/" 
+      class="navLink ">
+      Games
+    </a>
+  </li>
   
-  <li class="navLink"><a href="/about.html" 
-                         class="navLink ">
-      About Me</a>
+  <li class="navLink">
+    <a href="/about.html" 
+      class="navLink ">
+      About Me
+    </a>
+  </li>
   
-  <li class="navLink"><a href="/resume.html" 
-                         class="navLink ">
-      Resume</a>
+  <li class="navLink">
+    <a href="/resume.html" 
+      class="navLink ">
+      Resume
+    </a>
+  </li>
   
   <!-- <li class="navLink"><a class="navLink" href="index.html">Games</a></li> -->
   <!-- <li class="navLink"><a class="navLink" href="about.html">About Me</a></li> -->
@@ -43,12 +52,15 @@
 </ul>
 
     <div id="projectContainer">
+
+  <!-- Project header displaying name, studio and roles -->
   <div id="projectHeader">
     <p id="projectTitle">Miner Mayhem</p>
-    <p id="projectTeam">Shrug Studios</p>
+    <p id="projectTeam">Developed by <i>Shrug Studios</i></p>
     <p id="projectRole">Producer, Programmer</p>
   </div>
 
+  <!-- Container for top-level project information -->
   <div id="projectIntro">
     <div class="trailerHalf">
       <div class="aspect-ratio">
@@ -60,23 +72,72 @@
       </div>
     </div>
     <div class="textHalf">
-      <p id="projectAbout">About <i>Miner Mayhem</i></p>
-      <p id="projectDescription">This is a description of <i>Miner Mayhem</i>, The next greatest game of all time. Even though it starts out as something something something I'm not actually paying attention to anything that I'm writing I'm really just trying to fill up enough space for me to be able to tell whether or not this will be formatted as I expect it to be.</p>
+      <p class="projectSectionHeader">About <i>Miner Mayhem</i></p>
+      <p id="projectDescription"><i>Miner Mayhem</i> is a 2v2 platformer where each team must coordinate their shared control of a single miner to win a series of high stakes races in search of hidden gold! The catch? The only method of movement is through the use of deployable grappling hooks! Who will emerge victorious in this battle of teamwork, determination and grit?</p>
+      <p class="projectSectionHeader">Project Info</p>
+      <ul class="bulletList">
+        
+        <li> 9 Week Development Cycle </li>
+        
+        <li> 4 Developers </li>
+        
+        <li> Unity Engine </li>
+        
+      </ul>
     </div>
   </div>
 
   
+  <div class="sectionDivider"></div>
   <div id="projectResponsibilities">
-    <p class="projectSectionTitle">My Responsibilities</p>
+    <p class="projectSectionHeader">My Responsibilities</p>
     <ul>
       
-        <li class="responsibilityBullet"></li>
+        <li class="responsibilityBullet">Scheduled playtesting sessions and performed follow-up interviews</li>
       
-        <li class="responsibilityBullet"></li>
+        <li class="responsibilityBullet">Evaluated sprint progress and adapted project schedule to obstacles in development</li>
       
-        <li class="responsibilityBullet"></li>
+        <li class="responsibilityBullet">Responsibility #3</li>
       
     </ul>
+  </div>
+  
+
+  
+  <div class="sectionDivider"></div>
+  <p class="projectSectionHeader">Postmortem</p>
+  <div>
+    <!-- Left box: What went wrong -->
+    <div class="postmortemWrong">
+      <p class="postmortemSection">What went wrong</p>
+      <ul class="bulletList">
+        
+        <li>First thing went wrong</li>
+        
+        <li>Second thing went wrong</li>
+        
+      </ul>
+    </div>
+    <div class="postmortemRight">
+      <p class="postmortemSection">What went right</p>
+      <ul class="bulletList">
+        
+        <li>First thing went right</li>
+        
+        <li>Second thing went right</li>
+        
+      </ul>
+    </div>
+    <div class="postmortemLearned">
+      <p class="postmortemSection">Lessons learned</p>
+      <ul class="bulletList">
+        
+        <li>First thing we learned</li>
+        
+        <li>Second thing we learned</li>
+        
+      </ul>
+    </div>
   </div>
   
 

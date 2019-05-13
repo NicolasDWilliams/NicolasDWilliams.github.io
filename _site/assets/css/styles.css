@@ -5,7 +5,7 @@ html {
   margin: 20px 60px 60px 60px; }
 
 p, ul {
-  font-size: 14px; }
+  font-size: 15px; }
 
 #nameTitle {
   font-size: 40px;
@@ -19,15 +19,12 @@ p, ul {
   padding: 0;
   margin: 0; }
 
-.navBar {
-  /* background: #686868; */
+#navBar {
   list-style-type: none;
   padding: 5px 0;
   margin: 10px 0;
-  /* border: 3px solid black; */
   text-align: center;
   font-size: 17px;
-  border-top-style: solid;
   border-bottom-style: solid; }
 
 .navLink {
