@@ -12,6 +12,9 @@
 - What I think production is on about me section
 - Lessons I've learned in about me section
 - Design analysis
+- Correct the vertical bars between postmortem sections to be evenly 
+  distributed
+- Change the font to something else to be a little different from Ed
 
 ### PROJECT PAGES ###
 - Rotating images at the top
