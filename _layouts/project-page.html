@@ -6,9 +6,15 @@ stylesheet: /assets/css/projects.css
 
   <!-- Project header displaying name, studio and roles -->
   <div id="projectHeader">
-    <p id="projectTitle">{{ page.title }}</p>
-    <p id="projectTeam">Developed by <i>{{ page.team }}</i></p>
-    <p id="projectRole">{{ page.role }}</p>
+    <div id="nameBox">
+      <p id="projectTitle">{{ page.title }}</p>
+      {% if page.team == "Solo" %}
+      <p id="projectTeam"><i>Solo Project</i></p>
+      {% else %}
+      <p id="projectTeam">Developed by <i>{{ page.team }}</i></p>
+      {% endif %}
+      <p id="projectRole">{{ page.role }}</p>
+    </div>
   </div>
 
   <!-- Container for top-level project information -->
@@ -36,7 +42,7 @@ stylesheet: /assets/css/projects.css
       {% if page.demo %}
       <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
       {% endif %}
-      <p class="projectSectionHeader">Project Info</p>
+      <p class="projectSectionHeader">Development Info</p>
       <ul class="bulletList">
         {% for info in page.development_info %}
         <li class="bullet"> {{ info }} </li>

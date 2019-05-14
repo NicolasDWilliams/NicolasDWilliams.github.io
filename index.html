@@ -9,7 +9,10 @@ layout: default
     <img class="gameImg" src="{{ game.thumbnail }}" alt="{{ game.alt }}">
     <a class="gameImgLink" href="{{ game.projectLink }}">
       <div class="overlay">
-        <div class="overlayText">{{ game.name }}</div>
+        <div class="overlayText">
+          <p style="margin:0;font-size:30px;">{{ game.name }}</p>
+          <p style="margin:0"><i>{{ game.role }}</i></p>
+        </div>
       </div>
     </a>
   </div>
