@@ -19,6 +19,8 @@
 - Include post-mortem documents on project pages
 - Fix layout inheritance messing up on project pages (social media buttons in
   top left)
+- make playable demos and indieDB links more evident and emphasized on project
+  pages
 
 ### PROJECT PAGES ###
 - Rotating images at the top
