@@ -1,6 +1,6 @@
 - name: Games
   link: /
 - name: About Me
-  link: /about.html
+  link: /about
 - name: Resume
-  link: /resume.html
+  link: /resume
