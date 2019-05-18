@@ -1,3 +1,7 @@
+### NEXT STEPS ###
+- Update resume downloads with current resume
+
+### GENERAL TODO ###
 - Make new thumbnails for games
 - Create site version of resume
 - Project descriptions
