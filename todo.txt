@@ -16,7 +16,9 @@
   distributed
 - Change the font to something else to be a little different
 - Handle case where there is not a trailerPane for a project page
-- 
+- Include post-mortem documents on project pages
+- Fix layout inheritance messing up on project pages (social media buttons in
+  top left)
 
 ### PROJECT PAGES ###
 - Rotating images at the top
