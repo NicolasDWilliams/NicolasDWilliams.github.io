@@ -30,20 +30,35 @@ stylesheet: /assets/css/projects.css
         {% elsif page.poster %}
           <img id="projectPoster" src="{{ page.poster }}">
         {% else %}
-          <p> NO IMAGE FOUND </p>
+          <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
+          <p class="projectDescription">{{ page.description }}</p>
+          {% if page.demo %}
+            <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+          {% endif %}
+          {% if page.indieDB %}
+            <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
+          {% endif %}
+          {% if page.itch %}
+            <p>[ <a href="{{ page.itch }}">Itch.io</a> ]</p>
+          {% endif %}
         {% endif %}
       </div>
     </div>
 
     <!-- Right side of project information box -->
     <div class="textHalf">
-      <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
-      <p class="projectDescription">{{ page.description }}</p>
-      {% if page.demo %}
-        <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
-      {% endif %}
-      {% if page.indieDB %}
-        <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
+      {% if page.trailer or page.poster %}
+        <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
+        <p class="projectDescription">{{ page.description }}</p>
+        {% if page.demo %}
+          <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+        {% endif %}
+        {% if page.indieDB %}
+          <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
+        {% endif %}
+        {% if page.itch %}
+          <p>[ <a href="{{ page.itch }}">Itch.io</a> ]</p>
+        {% endif %}
       {% endif %}
       <p class="projectSectionHeader">Development Info</p>
       <ul class="bulletList">
