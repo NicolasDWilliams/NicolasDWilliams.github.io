@@ -40,7 +40,10 @@ stylesheet: /assets/css/projects.css
       <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
       <p class="projectDescription">{{ page.description }}</p>
       {% if page.demo %}
-      <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+        <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+      {% endif %}
+      {% if page.indieDB %}
+        <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
       {% endif %}
       <p class="projectSectionHeader">Development Info</p>
       <ul class="bulletList">
@@ -100,12 +103,6 @@ stylesheet: /assets/css/projects.css
     </div>
   </div>
   {% endif %}
-
-  <div style="text-align:center;font-size:25px;">
-    {% if page.indieDB %}
-    <a href="{{ page.indieDB }}">[ IndieDB ]</a>
-    {% endif %}
-  </div>
 </div> 
 
 {{ content }}
