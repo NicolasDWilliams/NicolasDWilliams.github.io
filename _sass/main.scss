@@ -1,12 +1,13 @@
 html {
   font-size: 10px;
   /* background: #CCCCCC */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Enriqueta', serif;
   margin: 20px 60px 60px 60px;
 }
 
 p, ul {
-  font-size: 14px;
+  font-size: 15px;
+  // color: #555555;
 }
 
 #nameTitle {
@@ -23,73 +24,13 @@ p, ul {
   margin: 0;
 }
 
-.projectBox {
-  display: block;
-  padding: 20px 20px 20px 0px;
-  /* border: 1px solid black; */
-  margin: 0;
-  position: relative;
-  min-height: 400px;
-}
-
-.projectName {
-  font-size: 30px;
-  text-align: left;
-  padding: 0;
-  margin: 0;
-  max-width:50%;
-}
-
-.projectRole {
-  font-size: 15px;
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-
-.projectInfo {
-  /* font-size: 20px; */
-  width: 30%;
-}
-
-.infoList {
-  padding: 5px;
-}
-
-/* .projectImg, .projectVid { */
-/*   position: absolute; */
-/*   top: Calc(50% - 110px); */
-/*   height: 100px; */
-/*   right: 0; */
-/*   width: 560px; */
-/*   height: 315px; */
-/* } */
-
-.projectImg, .projectVid {
-  float: right;
-  width: 560px;
-  height: 315px;
-  margin-top: 42px;
-  vertical-align: baseline;
-}
-
-.projectLink,.projectLink:visited {
-  color: #0000EE;
-  display:inline-block;
-  padding: 1px;
-  padding-top: 5px;
-  font-size: 15px;
-}
-
-.navBar {
-  /* background: #686868; */
+#navBar {
   list-style-type: none;
   padding: 5px 0;
   margin: 10px 0;
-  /* border: 3px solid black; */
   text-align: center;
-  font-size: 17px;
-  border-top-style: solid;
+  font-size: 20px;
+  // border-top-style: solid;
   border-bottom-style: solid;
 }
 
@@ -111,6 +52,7 @@ a:hover {
 }
 
 .socialMediaBar {
+  // position: relative;
   border: 2px #D3D3D3;
   border-top-style: solid;
   text-align: center;
@@ -130,10 +72,6 @@ a:hover {
 
 .socialMediaButton:hover {
   opacity: .7;
-}
-
-.norm {
-  font-size: 14px;
 }
 
 #gameTable {

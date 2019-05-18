@@ -1,15 +1,123 @@
 ---
 layout: default
+stylesheet: /assets/css/projects.css
 ---
-<h1 style="text-align:center;">{{ page.title }}</h1>
+<div id="projectContainer">
 
-<div style="text-align:center;font-size:25px;">
-  {% if page.indieDB %}
-  <a href="{{ page.indieDB }}">[ IndieDB ]</a>
+  <!-- Project header displaying name, studio and roles -->
+  <div id="projectHeader">
+    <div id="nameBox">
+      <p id="projectTitle">{{ page.title }}</p>
+      {% if page.team == "Solo" %}
+      <p id="projectTeam"><i>Solo Project</i></p>
+      {% else %}
+      <p id="projectTeam">Developed by <i>{{ page.team }}</i></p>
+      {% endif %}
+      <p id="projectRole">{{ page.role }}</p>
+    </div>
+  </div>
+
+  <!-- Container for top-level project information -->
+  <div id="projectIntro">
+
+    <!-- Left side of project information box -->
+    <div class="trailerHalf">
+      <div class="aspect-ratio">
+        {% if page.trailer %}
+          <iframe id="projectTrailer" src="{{ page.trailer }}" frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+          picture-in-picture" allowfullscreen></iframe>
+        {% elsif page.poster %}
+          <img id="projectPoster" src="{{ page.poster }}">
+        {% else %}
+          <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
+          <p class="projectDescription">{{ page.description }}</p>
+          {% if page.demo %}
+            <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+          {% endif %}
+          {% if page.indieDB %}
+            <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
+          {% endif %}
+          {% if page.itch %}
+            <p>[ <a href="{{ page.itch }}">Itch.io</a> ]</p>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Right side of project information box -->
+    <div class="textHalf">
+      {% if page.trailer or page.poster %}
+        <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
+        <p class="projectDescription">{{ page.description }}</p>
+        {% if page.demo %}
+          <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+        {% endif %}
+        {% if page.indieDB %}
+          <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
+        {% endif %}
+        {% if page.itch %}
+          <p>[ <a href="{{ page.itch }}">Itch.io</a> ]</p>
+        {% endif %}
+      {% endif %}
+      <p class="projectSectionHeader">Development Info</p>
+      <ul class="bulletList">
+        {% for info in page.development_info %}
+        <li class="bullet"> {{ info }} </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Responsibilities Section -->
+  {% if page.responsibilities %}
+  <div class="sectionDivider"></div>
+  <div id="projectResponsibilities">
+    <p class="projectSectionHeader">My Responsibilities</p>
+    <ul>
+      {% for responsibility in page.responsibilities %}
+        <li class="bullet">{{ responsibility }}</li>
+      {% endfor %}
+    </ul>
+  </div>
   {% endif %}
-  {% if page.demo %}
-  <a href="{{ page.demo }}">[ Playable Demo ]</a>
+
+  <!-- Postmortem Section -->
+  {% if page.postmortem_right %}
+  <div class="sectionDivider"></div>
+  <p class="projectSectionHeader">Postmortem</p>
+  <div id="postmortemContainer">
+    <!-- Left box: what went wrong -->
+    <div class="postmortemWrong">
+      <p class="postmortemSection">What went wrong</p>
+      <ul class="bulletList">
+        {% for wrong in page.postmortem_wrong %}
+        <li class="bullet">{{ wrong }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Middle box: what went right -->
+    <div class="postmortemRight">
+      <p class="postmortemSection">What went right</p>
+      <ul class="bulletList">
+        {% for right in page.postmortem_right %}
+        <li class="bullet">{{ right }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Right box: lessons learned -->
+    <div class="postmortemLearned">
+      <p class="postmortemSection">Lessons learned</p>
+      <ul class="bulletList">
+        {% for learn in page.postmortem_learned %}
+        <li class="bullet">{{ learn }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
   {% endif %}
-</div>
+</div> 
 
 {{ content }}

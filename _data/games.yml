@@ -11,7 +11,7 @@
   description: 
   role:
   responsibilities:
-  demo: /dantes-descent/index.html
+  demo: /dantes-descent/index
   indieDB: 
   trailer: 
   postmortem: 
@@ -20,7 +20,7 @@
   description: 
   role:
   responsibilities:
-  demo: /circle-survival/index.html
+  demo: /circle-survival/index
   indieDB: 
   trailer: 
   postmortem: 
@@ -29,7 +29,7 @@
   description: 
   role:
   responsibilities:
-  demo: /zelda/index.html
+  demo: /zelda/index
   indieDB: 
   trailer: 
   postmortem: 
