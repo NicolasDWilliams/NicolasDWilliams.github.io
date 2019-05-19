@@ -25,6 +25,10 @@
   top left)
 - make playable demos and indieDB links more evident and emphasized on project
   pages
+- Update resume
+  - skills on the left
+  - include wolverinesoft studio head
+  - Inline info at the top
 
 ### PROJECT PAGES ###
 - Rotating images at the top
