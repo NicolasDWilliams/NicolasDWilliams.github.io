@@ -1,12 +1,10 @@
 ### NEXT STEPS ###
-- Update resume downloads with current resume
+- Populate about me section
+- Create updated resume layout
 
 ### GENERAL TODO ###
 - Make new thumbnails for games
 - Create site version of resume
-- Project descriptions
-- Project post-mortems
-- Project development info
 - Role Responsibilities
 - Picture on about me section (?)
 - Student quotes on about me section
@@ -29,6 +27,7 @@
   - skills on the left
   - include wolverinesoft studio head
   - Inline info at the top
+- Potentially a "More" section with Misc info
 
 ### PROJECT PAGES ###
 - Rotating images at the top
