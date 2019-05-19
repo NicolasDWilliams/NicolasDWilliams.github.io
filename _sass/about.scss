@@ -1,0 +1,64 @@
+#aboutPageContainer {
+  width: var(--default-page-width);
+  margin: 0 auto;
+  // border: 5px solid green;
+}
+
+#aboutImage {
+  padding: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+#imageContainer {
+  float: left;
+  margin-left: 10%;
+  text-align: center;
+  width: 45%;
+  // border: 1px solid orange;
+}
+
+#aboutIntro {
+  padding-top: auto;
+  padding-bottom: auto;
+  border: 1px solid green;
+}
+
+.aboutTable {
+  margin: 0 auto;
+  width: 80%;
+  // border: 1px solid red;
+}
+
+th, td {
+  text-align: left;
+  width: 50%;
+}
+
+th {
+  font-size: var(--default-header-size);
+}
+
+td {
+  font-size: var(--default-text-size);
+  padding-bottom: 8%;
+  vertical-align: top;
+}
+
+
+.aboutSectionContainer {
+  // width: 40%;
+}
+
+.aboutSectionHeader {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1% 0;
+  border: 1px solid red;
+}
+
+.aboutText {
+  font-size: var(--default-text-size);
+}
+

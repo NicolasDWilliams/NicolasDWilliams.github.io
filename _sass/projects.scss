@@ -3,19 +3,16 @@
 }
 
 div#projectContainer {
-  // position: relative;
-  width: 80%;
+  width: var(--default-page-width);
   margin: 0 auto;
 }
 
 div#projectHeader {
   text-align: center;
   margin: 30px 0px;
-  // background: #00A8A3;
   background: var(--accent-color);
   border-radius: 10px;
   opacity: 0.8;
-  // border: 2px solid blue;
 }
 
 #nameBox {

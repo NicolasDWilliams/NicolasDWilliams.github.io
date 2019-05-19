@@ -1,5 +1,10 @@
 ### NEXT STEPS ###
 - Populate about me section
+  - WSS
+  - Producer roles and interest
+  - Email
+  - General experience (non-production)
+  - Teaching Game Development
 - Create updated resume layout
 
 ### GENERAL TODO ###
