@@ -1,3 +1,7 @@
+### NEXT STEPS ###
+- Update resume downloads with current resume
+
+### GENERAL TODO ###
 - Make new thumbnails for games
 - Create site version of resume
 - Project descriptions
@@ -22,6 +26,10 @@
   top left)
 - make playable demos and indieDB links more evident and emphasized on project
   pages
+- Update resume
+  - skills on the left
+  - include wolverinesoft studio head
+  - Inline info at the top
 
 ### PROJECT PAGES ###
 - Rotating images at the top

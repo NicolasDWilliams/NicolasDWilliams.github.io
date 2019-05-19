@@ -1,3 +1,7 @@
+:root {
+  --accent-color:#0b5394;
+}
+
 div#projectContainer {
   // position: relative;
   width: 80%;
@@ -7,7 +11,8 @@ div#projectContainer {
 div#projectHeader {
   text-align: center;
   margin: 30px 0px;
-  background: #00A8A3;
+  // background: #00A8A3;
+  background: var(--accent-color);
   border-radius: 10px;
   opacity: 0.8;
   // border: 2px solid blue;
@@ -103,8 +108,8 @@ div#projectIntro {
   margin: 30px auto;
   height: 2px;
   width: 85%;
-  background: #00A8A3;
-  border: 1px solid #00A8A3;
+  background: var(--accent-color);
+  border: 1px solid var(--accent-color);
   border-radius: 100px;
 }
 
@@ -140,7 +145,7 @@ div#projectIntro {
 
 // Middle box
 .postmortemRight {
-  border: 2px #00A8A3;
+  border: 2px var(--accent-color);
   border-left-style: solid;
   border-right-style: solid;
 

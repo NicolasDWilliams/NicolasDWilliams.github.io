@@ -10,7 +10,7 @@
   {% for item in site.data.header %}
   <li class="navLink">
     <a href="{{ item.link }}" 
-      class="navLink {% if page.url == item.link %}active{% endif %}">
+      class="navLink {% if page.nav-url == item.link %}active{% endif %}">
       {{ item.name }}
     </a>
   </li>
