@@ -33,6 +33,15 @@
   - include wolverinesoft studio head
   - Inline info at the top
 - Potentially a "More" section with Misc info
+- Lessons Learned page
+	- Include things like figuring out when to say suggestions or questions, both
+		for not cutting people off but also not giving the perception of being
+		nitpicky
+	- How to communicate disagreements or critiques
+	- How to deal with toxicity/negativity.
+	- estimating requirements for tasks and timeframes & cost-benefit-analysis of
+		such tasks
+	- etc
 
 ### PROJECT PAGES ###
 - Rotating images at the top
