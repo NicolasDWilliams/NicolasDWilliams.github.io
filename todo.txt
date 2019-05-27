@@ -42,6 +42,10 @@
 	- estimating requirements for tasks and timeframes & cost-benefit-analysis of
 		such tasks
 	- etc
+- Change setup of index page. Games as tiles are useless, because recruiters
+  don't know any of the games, the choices are meaningless, and don't 
+  productively sort the information.
+- Add a link to my Gamasutra blog
 
 ### PROJECT PAGES ###
 - Rotating images at the top
