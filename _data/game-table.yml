@@ -1,3 +1,8 @@
+- name: Infectant
+  role: Producer
+  thumbnail: /images/infectant-cover.jpg
+  alt: infectant_image
+  projectLink: /infectant
 - name: Miner Mayhem
   role: Producer, Programmer
   thumbnail: /images/miner_mayhem_square.jpg"
