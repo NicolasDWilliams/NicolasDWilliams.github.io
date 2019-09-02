@@ -1,12 +1,25 @@
-### NEXT STEPS ###
-- Update resume downloads with current resume
+### Before PlayStation Application ###
+- Update resume download link
+- Infectant game cover art
+- Infectant Postmortem
+- Infectant description
+- Infectant responsibilities
+- About me page (maybe?)
+
+
+### High Priority ###
+- 
+
+### About Me ###
+- CSE @ University of Michigan 2020
+- WolverineSoft Producer
+- Student Instructor @ UM
+- Games I love & why
+- What is important about being a producer
 
 ### GENERAL TODO ###
 - Make new thumbnails for games
 - Create site version of resume
-- Project descriptions
-- Project post-mortems
-- Project development info
 - Role Responsibilities
 - Picture on about me section (?)
 - Student quotes on about me section
