@@ -18,6 +18,7 @@
 - What is important about being a producer
 
 ### GENERAL TODO ###
+- Deprecate the game-table yaml by just pulling info from games.yml
 - Make new thumbnails for games
 - Create site version of resume
 - Role Responsibilities

@@ -1,11 +1,11 @@
 - name: Infectant
-  role: Producer
-  thumbnail: /images/infectant-cover.jpg
+  role: Producer, Project Manager
+  thumbnail: /images/infectant_cover.png
   alt: infectant_image
   projectLink: /infectant
 - name: Miner Mayhem
   role: Producer, Programmer
-  thumbnail: /images/miner_mayhem_square.jpg"
+  thumbnail: /images/miner_mayhem_square.jpg
   alt: miner_mayhem_image
   projectLink: /miner-mayhem
 - name: Dante's Descent
