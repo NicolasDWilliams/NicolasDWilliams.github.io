@@ -1,14 +1,39 @@
-- header: Header 1
-  content: Lorem ipsum dolor sit amet, mei id novum partiendo honestatis, mea malis saepe ne. Quando ignota aperiri et est. Nec eros euismod necessitatibus ex. His noster sententiae appellantur ut, in mea iudico omnesque salutatus. Id vim inimicus dissentiunt, iuvaret albucius eos id.
+- header: Producer
+  content: 
+    I learn to adapt my style of communication to those around me
+    I'm passionate about supporting a team and doing whatever is necessary to allow that team to thrive
+    I'm detail-oriented
+    I remove blockers
+    Deep understanding of project management principles
+    Ultimately, I'm a communicator
 
-- header: Header 2
-  content: Lorem ipsum dolor sit amet, mei id novum partiendo honestatis, mea malis saepe ne. Quando ignota aperiri et est. Nec eros euismod necessitatibus ex. His noster sententiae appellantur ut, in mea iudico omnesque salutatus. Id vim inimicus dissentiunt, iuvaret albucius eos id.
+- header: Computer Scientist
+  content: 
+    I can communicate technical issues to non-technical people
+    I can effectively assess risk related to the engineering fields
+    I can understand programmers
+    Identify engineering-related dependencies
+    I think like an engineer, breaking things down to their components and addressing those components
 
-- header: Header 3
-  content: Lorem ipsum dolor sit amet, mei id novum partiendo honestatis, mea malis saepe ne. Quando ignota aperiri et est. Nec eros euismod necessitatibus ex. His noster sententiae appellantur ut, in mea iudico omnesque salutatus. Id vim inimicus dissentiunt, iuvaret albucius eos id.
 
-- header: Header 4
-  content: Lorem ipsum dolor sit amet, mei id novum partiendo honestatis, mea malis saepe ne. Quando ignota aperiri et est. Nec eros euismod necessitatibus ex. His noster sententiae appellantur ut, in mea iudico omnesque salutatus. Id vim inimicus dissentiunt, iuvaret albucius eos id.
+- header: Teacher
+  content: 
+    Giving back to my community
+    Student instructor to cultivate game dev program
+    Mentorship with underclassmen and local high school students
 
-- header: Header 5
-  content: Lorem ipsum dolor sit amet, mei id novum partiendo honestatis, mea malis saepe ne. Quando ignota aperiri et est. Nec eros euismod necessitatibus ex. His noster sententiae appellantur ut, in mea iudico omnesque salutatus. Id vim inimicus dissentiunt, iuvaret albucius eos id.
+
+- header: Student
+  content: 
+    I'm always learning how to improve
+    Self reflecting on how I communicate
+    Never afraid to admit I don't understand something
+    If I see something that I think can be improved, I speak up
+
+- header: Lover of Games
+  content: 
+    Games are an important art form to me
+    Give you agency in a story that others worked to craft. Sometimes large groups, sometimes small
+    RDR2, God of War, the Last of Us all gave me the sense that I knew these characters
+    I want to work with a team to craft these kinds of experiences. To share with others, but also to share the experience of creating that story in the first place with other people
+
