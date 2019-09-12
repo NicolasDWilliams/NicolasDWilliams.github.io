@@ -9,6 +9,10 @@ div#aboutContainer {
 	width: 70%;
 }
 
+div#aboutMe {
+	width: 80%;
+}
+
 img#aboutImage {
 	border-radius: 50%;
 	display: block;
@@ -16,11 +20,14 @@ img#aboutImage {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	max-width: 300px;
+	max-width: 400px;
 }
 
 .aboutSubSection {
+	width: 80%;
 	margin: 15px;
+	margin-right: 50px;
+	// margin-left: 50px;
 }
 
 .aboutHeader {

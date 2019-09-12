@@ -1,39 +1,73 @@
 - header: Producer
   content: 
-    I learn to adapt my style of communication to those around me
-    I'm passionate about supporting a team and doing whatever is necessary to allow that team to thrive
-    I'm detail-oriented
-    I remove blockers
-    Deep understanding of project management principles
-    Ultimately, I'm a communicator
+    I have learned to handle any and every responsibility that is necessary to support my
+    team's success. Traditionally, this can be something as straightforward as taking
+    notes in a meeting and following up with other teams afterwards, or keeping
+    track of my team's tasks during a sprint. However, sometimes it becomes
+    necessary to defuse conflicts within the team or assess the risk associated
+    with a major decision or course of action. To navigate these obstacles, I
+    have learned to adapt to changes in my expectations and to recognize and minimize
+    as many unknown variables as possible.
+
+    <br /><br />
+    The development of a comprehensive understanding of project management principles
+    has also become integral to ensuring I can perform at the level that my team requires.
+    Being able to quickly break down tasks and identify dependencies has allowed
+    me to plan more effectively for my team and to deal with unforeseen obstacles
+    in development with a level head. 
 
 - header: Computer Scientist
   content: 
-    I can communicate technical issues to non-technical people
-    I can effectively assess risk related to the engineering fields
-    I can understand programmers
-    Identify engineering-related dependencies
-    I think like an engineer, breaking things down to their components and addressing those components
-
-
-- header: Teacher
-  content: 
-    Giving back to my community
-    Student instructor to cultivate game dev program
-    Mentorship with underclassmen and local high school students
-
+    My formal education in Computer Science and my experience as a programmer
+    give me a deeper understanding of the operations of programming and
+    infrastructure teams. This understanding helps me to identify technical 
+    dependencies, accurately assess and mitigate technical risks, and handle
+    any blockers that inhibit my team's progress. <br /><br />
+    
+    This background has augmented my ability to communicate across technical
+    barriers and has taught me to break down information into components
+    that are easier to interpret and address. I am able to understand
+    and keep track of my team's tasks, while also actively contributing
+    to the decision-making processes that shape the development timeline.
 
 - header: Student
   content: 
-    I'm always learning how to improve
-    Self reflecting on how I communicate
-    Never afraid to admit I don't understand something
-    If I see something that I think can be improved, I speak up
+    I am always learning. I've
+    learned to be self-reflective in my thoughts and actions, and to frequently
+    ask myself whether I could have done something better. This applies to my communication
+    style, my knowledge on the subjects of programming or game design, and even
+    my personal philosophies.
+    <br /><br />
+    To drive this relentless improvement, I've learned to never be afraid to
+    admit that I don't understand something, and I've developed a habit of
+    always speaking up when I think something can be improved. Though it took 
+    some time before I learned how to speak up in a neutral, non-disruptive way.
+    
 
-- header: Lover of Games
+- header: Teacher
   content: 
-    Games are an important art form to me
-    Give you agency in a story that others worked to craft. Sometimes large groups, sometimes small
-    RDR2, God of War, the Last of Us all gave me the sense that I knew these characters
-    I want to work with a team to craft these kinds of experiences. To share with others, but also to share the experience of creating that story in the first place with other people
+    Showing appreciation and giving back to my community is incredibly 
+    important to me. One way I've tried to do this is as a student instructor 
+    at U of M for the senior capstone course EECS 494 - Video Game Development.
+    <br /> <br />
+    As the only formal upper-level game development course at the University, 
+    we give students experience working with teams of 4-5 over the course of ~10
+    weeks to create a game in the Unity engine. Over the course of just one 
+    semester, we are tasked with introducing students to game development & the 
+    Unity engine, getting them up-to-speed to be able to contribute effectively, 
+    and teaching them to work with a group to create a final game. As a result,
+    it's known as one of the highest workload courses in the major.
 
+
+- header: Player of Games
+  content: 
+    I grew up playing Warcraft 3, Jak and Daxter, and Ratchet and Clank. Some of
+    my favorite games nowadays are God of War (2018), Red Dead Redemption 2,
+    Celeste, and The Last of Us.
+    <br /><br />
+    Games give you agency in a story that other people created for you. Like
+    every game developer, I want to give people a story that means
+    something to them. However, I'm just as interested in the process of creating
+    that story with other developers who may or may not be like me. It's not
+    just about giving something to other people, it's about contributing to
+    something larger than myself.
