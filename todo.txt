@@ -1,14 +1,8 @@
 ### Before PlayStation Application ###
-- Update resume download link
-- Infectant game cover art
-- Infectant Postmortem
-- Infectant description
-- Infectant responsibilities
 - About me page (maybe?)
 
-
-### High Priority ###
-- 
+### BUGS ###
+Github & LinkedIn icons float top-left on project pages
 
 ### About Me ###
 - CSE @ University of Michigan 2020
