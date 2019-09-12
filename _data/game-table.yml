@@ -5,7 +5,7 @@
   projectLink: /infectant
 - name: Miner Mayhem
   role: Producer, Programmer
-  thumbnail: /images/miner_mayhem_square.jpg
+  thumbnail: /images/miner_mayhem.png
   alt: miner_mayhem_image
   projectLink: /miner-mayhem
 - name: Dante's Descent
@@ -18,7 +18,7 @@
   thumbnail: /images/circle_survival.jpg
   alt: circle_survival_image
   projectLink: /circle-survival
-- name: Reimplementation- The Legend of Zelda Dungeon
+- name: Clone - The Legend of Zelda Dungeon
   role: Programmer
   thumbnail: /images/zelda.jpg
   alt: zelda_image
