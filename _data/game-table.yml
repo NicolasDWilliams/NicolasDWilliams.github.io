@@ -18,9 +18,9 @@
   thumbnail: /images/circle_survival.jpg
   alt: circle_survival_image
   projectLink: /circle-survival
-- name: Clone - The Legend of Zelda Dungeon
-  role: Programmer
-  thumbnail: /images/zelda.jpg
-  alt: zelda_image
-  projectLink: /zelda-reimplementation
+# - name: Clone - The Legend of Zelda Dungeon
+#   role: Programmer
+#   thumbnail: /images/zelda.jpg
+#   alt: zelda_image
+#   projectLink: /zelda-reimplementation
 
