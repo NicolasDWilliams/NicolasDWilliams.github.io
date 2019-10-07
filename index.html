@@ -8,6 +8,11 @@ nav-url: /
   {% for game in site.data.game-table %}
   <div class="gameContainer">
     <img class="gameImg" src="{{ game.thumbnail }}" alt="{{ game.alt }}">
+		<div class="infoContainer">
+			<div class="titleComponent"> {{ game.name }} </div>
+			<div class="descriptionComponent"> {{ game.description }}</div>
+			<div class="infoComponent"> Engine maybe? </div>
+		</div>
     <a class="gameImgLink" href="{{ game.projectLink }}">
       <div class="overlay">
         <div class="overlayText">

@@ -30,33 +30,33 @@
     and keep track of my team's tasks, while also actively contributing
     to the decision-making processes that shape the development timeline.
 
-- header: Student
-  content: 
-    I am always learning. I've
-    learned to be self-reflective in my thoughts and actions, and to frequently
-    ask myself whether I could have done something better. This applies to my communication
-    style, my knowledge on the subjects of programming or game design, and even
-    my personal philosophies.
-    <br /><br />
-    To drive this relentless improvement, I've learned to never be afraid to
-    admit that I don't understand something, and I've developed a habit of
-    always speaking up when I think something can be improved. Though it took 
-    some time before I learned how to speak up in a neutral, non-disruptive way.
+# - header: Student
+#   content: 
+#     I am always learning. I've
+#     learned to be self-reflective in my thoughts and actions, and to frequently
+#     ask myself whether I could have done something better. This applies to my communication
+#     style, my knowledge on the subjects of programming or game design, and even
+#     my personal philosophies.
+#     <br /><br />
+#     To drive this relentless improvement, I've learned to never be afraid to
+#     admit that I don't understand something, and I've developed a habit of
+#     always speaking up when I think something can be improved. Though it took 
+#     some time before I learned how to speak up in a neutral, non-disruptive way.
     
 
-- header: Teacher
-  content: 
-    Showing appreciation and giving back to my community is incredibly 
-    important to me. One way I've tried to do this is as a student instructor 
-    at U of M for the senior capstone course EECS 494 - Video Game Development.
-    <br /> <br />
-    As the only formal upper-level game development course at the University, 
-    we give students experience working with teams of 4-5 over the course of ~10
-    weeks to create a game in the Unity engine. Over the course of just one 
-    semester, we are tasked with introducing students to game development & the 
-    Unity engine, getting them up-to-speed to be able to contribute effectively, 
-    and teaching them to work with a group to create a final game. As a result,
-    it's known as one of the highest workload courses in the major.
+# - header: Teacher
+#   content: 
+#     Showing appreciation and giving back to my community is incredibly 
+#     important to me. One way I've tried to do this is as a student instructor 
+#     at U of M for the senior capstone course EECS 494 - Video Game Development.
+#     <br /> <br />
+#     As the only formal upper-level game development course at the University, 
+#     we give students experience working with teams of 4-5 over the course of ~10
+#     weeks to create a game in the Unity engine. Over the course of just one 
+#     semester, we are tasked with introducing students to game development & the 
+#     Unity engine, getting them up-to-speed to be able to contribute effectively, 
+#     and teaching them to work with a group to create a final game. As a result,
+#     it's known as one of the highest workload courses in the major.
 
 
 - header: Player of Games
@@ -67,7 +67,6 @@
     <br /><br />
     Games give you agency in a story that other people created for you. Like
     every game developer, I want to give people a story that means
-    something to them. However, I'm just as interested in the process of creating
-    that story with other developers who may or may not be like me. It's not
-    just about giving something to other people, it's about contributing to
-    something larger than myself.
+    something to them, but I'm just as interested in the process of creating
+    that story with other developers. It's not just about giving something to 
+    other people, it's about contributing to something larger than myself.

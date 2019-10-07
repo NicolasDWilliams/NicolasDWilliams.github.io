@@ -3,6 +3,7 @@
   thumbnail: /images/infectant_cover.png
   alt: infectant_image
   projectLink: /infectant
+  description: A top-down 2D adventure game where you must adopt the perspective of a germ that has infected a human body, as it tries to survive against the overwhelming assault of the immune system. 
 - name: Miner Mayhem
   role: Producer, Programmer
   thumbnail: /images/miner_mayhem.png
@@ -18,9 +19,3 @@
   thumbnail: /images/circle_survival.jpg
   alt: circle_survival_image
   projectLink: /circle-survival
-# - name: Clone - The Legend of Zelda Dungeon
-#   role: Programmer
-#   thumbnail: /images/zelda.jpg
-#   alt: zelda_image
-#   projectLink: /zelda-reimplementation
-

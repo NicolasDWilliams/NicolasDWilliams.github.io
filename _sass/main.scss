@@ -1,5 +1,5 @@
 html {
-  font-size: 10px;
+  font-size: 15px;
   /* background: #CCCCCC */
   font-family: 'Enriqueta', serif;
   margin: 20px 60px 60px 60px;
@@ -86,21 +86,45 @@ a:hover {
 }
 
 .gameContainer {
+	border: 1px solid blue;
   position: relative;
-  display: inline-block;
-  height: 350px;
-  width: 350px;
-  margin: 10px;
+  display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+  height: 225px;
+  width: 70%;
+  margin: 25px auto;
+	// padding: 20px;
+	border-radius: 20px;
   box-shadow: 2px 2px 5px #C0C0C0;
+	overflow: hidden;
+}
+
+div.infoContainer {
+	display: grid;
+	grid-template-rows: 1fr 5fr 1fr;
+}
+
+div.titleComponent {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+}
+
+div.descriptionComponent {
+	text-align: left;
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+
+div.infoComponent {
+	// border: 1px solid blue;
 }
 
 img.gameImg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
+	// float: left;
+	height: 100%;
   width: 100%;
 }
 
@@ -120,6 +144,7 @@ img.gameImg {
 
 .overlay:hover {
   opacity: .8;
+	border-radius: 20px;
 }
 
 .overlayText {
