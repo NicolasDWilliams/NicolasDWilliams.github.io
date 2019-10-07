@@ -1,7 +1,7 @@
 html {
   font-size: 15px;
   /* background: #CCCCCC */
-  font-family: 'Enriqueta', serif;
+  font-family: 'Fira Sans', sans-serif;
   margin: 20px 60px 60px 60px;
 }
 
@@ -94,23 +94,37 @@ a:hover {
   height: 225px;
   width: 70%;
   margin: 25px auto;
-	// padding: 20px;
 	border-radius: 20px;
   box-shadow: 2px 2px 5px #C0C0C0;
 	overflow: hidden;
 }
 
 div.infoContainer {
-	display: grid;
-	grid-template-rows: 1fr 5fr 1fr;
+	position: relative;
+	height: 100%;
 }
 
 div.titleComponent {
-	font-size: 20px;
+	position: absolute;
+	font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 	text-align: center;
-	font-weight: bold;
-	border-bottom: 1px solid gray;
 }
+
+p#titleName {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0;
+}
+
+p#titleRole {
+	font-size: 20px;
+	margin: 0;
+}
+
 
 div.descriptionComponent {
 	text-align: left;
@@ -138,12 +152,12 @@ img.gameImg {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: white;
+  background-color: blue;
   /* border: 3px solid green; */
 }
 
 .overlay:hover {
-  opacity: .8;
+  opacity: .2;
 	border-radius: 20px;
 }
 

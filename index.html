@@ -9,10 +9,15 @@ nav-url: /
   <div class="gameContainer">
     <img class="gameImg" src="{{ game.thumbnail }}" alt="{{ game.alt }}">
 		<div class="infoContainer">
-			<div class="titleComponent"> {{ game.name }} </div>
-			<div class="descriptionComponent"> {{ game.description }}</div>
-			<div class="infoComponent"> Engine maybe? </div>
+			<div class="titleComponent"> 
+				<p id="titleName">{{ game.name }}</p>
+				<p id="titleRole">{{ game.role }}</p>
+			</div>
+			<!-- <div class="roleComponent"> {{ game.role }} </div> -->
+			<!-- <div class="descriptionComponent"> {{ game.description }}</div> -->
+			<!-- <div class="infoComponent"> Engine maybe? </div> -->
 		</div>
+
     <a class="gameImgLink" href="{{ game.projectLink }}">
       <div class="overlay">
         <div class="overlayText">

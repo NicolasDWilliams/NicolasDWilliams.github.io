@@ -3,7 +3,6 @@
   thumbnail: /images/infectant_cover.png
   alt: infectant_image
   projectLink: /infectant
-  description: A top-down 2D adventure game where you must adopt the perspective of a germ that has infected a human body, as it tries to survive against the overwhelming assault of the immune system. 
 - name: Miner Mayhem
   role: Producer, Programmer
   thumbnail: /images/miner_mayhem.png
