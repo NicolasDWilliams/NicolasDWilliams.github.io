@@ -1,20 +1,20 @@
 - name: Dreamwillow
-  role: Producer
+  role: Lead Producer
   thumbnail: /images/dreamwillow_square_cover.png
   alt: dreamwillow_image
   projectLink: /dreamwillow
 - name: Io
-  role: Producer
+  role: Lead Producer
   thumbnail: /images/io_square_cover.png
   alt: io_image
   projectLink: /io
 - name: Infectant
-  role: Producer, Project Manager
+  role: Lead Producer, Project Manager
   thumbnail: /images/infectant_cover.png
   alt: infectant_image
   projectLink: /infectant
 - name: Miner Mayhem
-  role: Producer, Programmer
+  role: Gameplay Programmer
   thumbnail: /images/miner_mayhem.png
   alt: miner_mayhem_image
   projectLink: /miner-mayhem
