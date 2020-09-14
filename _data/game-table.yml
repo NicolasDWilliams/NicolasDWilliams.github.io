@@ -1,15 +1,15 @@
 - name: Dreamwillow
-  role: Lead Producer
+  role: Production Director
   thumbnail: /images/dreamwillow_square_cover.png
   alt: dreamwillow_image
   projectLink: /dreamwillow
 - name: Io
-  role: Lead Producer
+  role: Production Director
   thumbnail: /images/io_square_cover.png
   alt: io_image
   projectLink: /io
 - name: Infectant
-  role: Lead Producer, Project Manager
+  role: Production Director
   thumbnail: /images/infectant_cover.png
   alt: infectant_image
   projectLink: /infectant
