@@ -24,19 +24,23 @@ stylesheet: /assets/css/projects.css
     <div class="trailerHalf">
       <div class="aspect-ratio">
         {% if page.trailer %}
-        <iframe id="projectTrailer" src="{{ page.trailer }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+          <iframe id="projectTrailer" src="{{ page.trailer }}" frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; 
           picture-in-picture" allowfullscreen></iframe>
         {% elsif page.poster %}
-        <img id="projectPoster" src="{{ page.poster }}">
+          <img id="projectPoster" src="{{ page.poster }}">
         {% else %}
-        <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
-        <p class="projectDescription">{{ page.description }}</p>
-        {% if page.demo %}
-        <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
-        {% endif %}
-        {% if page.indieDB %}
-        <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
-        {% endif %}
+          <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
+          <p class="projectDescription">{{ page.description }}</p>
+          {% if page.demo %}
+            <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+          {% endif %}
+          {% if page.indieDB %}
+            <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
+          {% endif %}
+          {% if page.itch_embed_code %}
+          <iframe src="https://itch.io/embed/{{ page.itch_embed_code }}" height="167" width="552" frameborder="0"><a href="{{ page.itch_embed_link }}">{{ page.title }}</a></iframe>
+          {% endif %}
         {% endif %}
       </div>
     </div>
@@ -44,17 +48,17 @@ stylesheet: /assets/css/projects.css
     <!-- Right side of project information box -->
     <div class="textHalf">
       {% if page.trailer or page.poster %}
-      <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
-      <p class="projectDescription">{{ page.description }}</p>
-      {% if page.demo %}
-      <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
-      {% endif %}
-      {% if page.indieDB %}
-      <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
-      {% endif %}
-      {% if page.itch %}
-      <p>[ <a href="{{ page.itch }}">Itch.io</a> ]</p>
-      {% endif %}
+        <p class="projectSectionHeader">About <i>{{ page.title }}</i></p>
+        <p class="projectDescription">{{ page.description }}</p>
+        {% if page.demo %}
+          <p>[ <a href="{{ page.demo }}">Playable Demo</a> ]</p>
+        {% endif %}
+        {% if page.indieDB %}
+          <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
+        {% endif %}
+        {% if page.itch %}
+          <p>[ <a href="{{ page.itch }}">Itch.io</a> ]</p>
+        {% endif %}
       {% endif %}
       <p class="projectSectionHeader">Development Info</p>
       <ul class="bulletList">
@@ -72,7 +76,7 @@ stylesheet: /assets/css/projects.css
     <p class="projectSectionHeader">My Responsibilities</p>
     <ul>
       {% for responsibility in page.responsibilities %}
-      <li class="bullet">{{ responsibility }}</li>
+        <li class="bullet">{{ responsibility }}</li>
       {% endfor %}
     </ul>
   </div>
@@ -114,6 +118,6 @@ stylesheet: /assets/css/projects.css
     </div>
   </div>
   {% endif %}
-</div>
+</div> 
 
 {{ content }}
