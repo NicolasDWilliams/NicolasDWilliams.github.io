@@ -65,9 +65,11 @@ stylesheet: /assets/css/projects.css
       </ul>
     </div>
   </div>
-          {% if page.itch_embed_code %}
-          <iframe src="https://itch.io/embed/{{ page.itch_embed_code }}" height="167" width="552" frameborder="0"><a href="{{ page.itch_embed_link }}">{{ page.title }}</a></iframe>
-          {% endif %}
+  <div class="itch_container">
+    {% if page.itch_embed_code %}
+    <iframe src="https://itch.io/embed/{{ page.itch_embed_code }}" height="167" width="552" frameborder="0"><a href="{{ page.itch_embed_link }}">{{ page.title }}</a></iframe>
+    {% endif %}
+  </div>
 
   <!-- Responsibilities Section -->
   {% if page.responsibilities %}
