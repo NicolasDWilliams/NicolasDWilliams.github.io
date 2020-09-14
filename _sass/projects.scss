@@ -53,7 +53,7 @@ p#projectRole {
 // First thing someone sees after selecting a project
 div#projectIntro {
   position: relative;
-  min-height: 315px;
+  // min-height: 315px;
   margin: 0 auto;
   // border: 1px solid blue;
 }
@@ -105,6 +105,7 @@ div#projectIntro {
 }
 
 .itchContainer {
+  text-align: center;
   margin: 0 auto;
 }
 
