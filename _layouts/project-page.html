@@ -38,9 +38,6 @@ stylesheet: /assets/css/projects.css
           {% if page.indieDB %}
             <p>[ <a href="{{ page.indieDB }}">IndieDB</a> ]</p>
           {% endif %}
-          {% if page.itch_embed_code %}
-          <iframe src="https://itch.io/embed/{{ page.itch_embed_code }}" frameborder="0"><a href="{{ page.itch_embed_link }}">{{ page.title }}</a></iframe>
-          {% endif %}
         {% endif %}
       </div>
     </div>
@@ -67,6 +64,13 @@ stylesheet: /assets/css/projects.css
         {% endfor %}
       </ul>
     </div>
+  </div>
+
+  <div class="itchContainer">
+    {% if page.itch_embed_code %}
+    <iframe class="itchEmbed" src="https://itch.io/embed/{{ page.itch_embed_code }}" height="167" width="552" frameborder="0"><a
+        href="{{ page.itch_embed_link }}">{{ page.title }}</a></iframe>
+    {% endif %}
   </div>
 
   <!-- Responsibilities Section -->
