@@ -18,13 +18,3 @@
   thumbnail: /images/miner_mayhem.png
   alt: miner_mayhem_image
   projectLink: /miner-mayhem
-- name: Dante's Descent
-  role: Designer, Programmer
-  thumbnail: /images/dantes_descent.jpg
-  alt: dantes_descent_image
-  projectLink: /dantes-descent
-- name: Circle Survival
-  role: Solo Project
-  thumbnail: /images/circle_survival.jpg
-  alt: circle_survival_image
-  projectLink: /circle-survival
